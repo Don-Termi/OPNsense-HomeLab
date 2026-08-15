@@ -1,0 +1,24 @@
+<group name="opnsense,firewall,portscan">
+
+	<rule id="100100" level="12">
+		<if_sid>87702</if_sid>
+		<match>filterlog</match>
+		<match>block</match>
+
+		<description>
+			OPNsense firewall blocked suspicious network activity
+		</description>
+
+		<mitre>
+			<id>T1046</id>
+		</mitre>
+
+		<group>
+			network,
+			firewall,
+			reconnaissance,
+			portscan
+		</group>
+	</rule>
+
+</group>
