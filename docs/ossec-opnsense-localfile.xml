@@ -1,4 +1,0 @@
-<localfile>
-	<log_format>syslog</log_format>
-	<location>/var/log/opnsense.log</location>
-</localfile>
