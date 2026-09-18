@@ -136,7 +136,9 @@ opnsense-wazuh-segmentation-lab/
 ├── diagrams/
 ├── screenshots/
 ├── configs/
-└── docs/
+├── docs/
+├── rules/
+└── screenshots/
 ```
 
 Detailed technical documentation is available in the **docs/** directory.
